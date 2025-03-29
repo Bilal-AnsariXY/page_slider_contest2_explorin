@@ -1,0 +1,36 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(128, 0, 0, 0.367);
+}
+.contaner
+{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.lal
+{
+    color: maroon;
+}
+.btn
+{
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
